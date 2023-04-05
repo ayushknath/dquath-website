@@ -4,7 +4,22 @@
 
 ### HTML
 
-- Every section should have a `<div>` element with the class of `container` which is used to give spacing to the content.
+- Add a `<div>` element with the class of `container` which is used to give spacing to the content (refer `index.html`). A code snippet has been provided below as an example:
+
+```HTML
+<header>
+  <div class="container">
+    <!-- Other tags -->
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <!-- Other tags -->
+  </div>
+</section>
+```
+
 - A comment has been added in the `index.html` file specifying where to place the _services section_.
 
 ### CSS
@@ -38,7 +53,7 @@
 
 ⚠️ The code in `main.js` has not been formatted properly. So put your code at the bottom of the file or create your own `.js` file to add your JavaScript code.
 
-**Note:** Be sure to add comments that briefly describes your code.
+**Note:** Be sure to add comments that briefly describe your code.
 
 ### References folder
 
