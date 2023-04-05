@@ -1,0 +1,16 @@
+:root {
+  --accent-clr: #0c8ce9;
+  --custom-black: #111;
+  --custom-black-h: 0;
+  --custom-black-s: 0%;
+  --custom-black-l: 7%;
+  --custom-white: #f0f0f0;
+  --default-font: "Poppins", sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --light-grey: #aaa;
+  --dark-grey: #404040;
+  --border-rad: 8px;
+  --animation-time: 0.25s;
+}

@@ -1,0 +1,136 @@
+@import "./variables.css";
+
+@media only screen and (max-width: 426px) {
+  /* === Default styles start === */
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.375rem;
+  }
+
+  .container {
+    max-width: 90vw;
+  }
+
+  .btn {
+    padding: 10px 22px;
+  }
+
+  /* === Default styles end === */
+
+  /* === Header === */
+  .header-content {
+    padding: 16px 0;
+  }
+
+  .header-content .logo-header img {
+    width: 90px;
+    height: auto;
+  }
+
+  .header-content .ham-menu {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-content .ham-menu:hover {
+    cursor: pointer;
+  }
+
+  .header-content .ham-menu .menu-item {
+    width: 24px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: var(--custom-black);
+  }
+
+  .header-content .ham-menu .menu-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .header-content nav {
+    position: fixed;
+    top: 64px;
+    right: 0;
+    z-index: 10;
+    width: 100vw;
+    height: calc(100vh - 64px);
+    padding: 2rem 1rem 0;
+    background-color: var(--custom-white);
+    transform: translateX(120%);
+  }
+
+  .header-content nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-content nav ul > li {
+    position: relative;
+    font-size: 28px;
+    overflow-y: hidden;
+  }
+
+  .header-content nav ul > li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .header-content nav a {
+    flex-direction: row-reverse;
+  }
+
+  .header-content nav a::after {
+    width: 8px;
+    height: 8px;
+    margin-right: 16px;
+  }
+
+  /* === Hero section === */
+  .hero-section {
+    height: calc(100vh - 64px);
+    background: none;
+    background-size: none;
+  }
+
+  .hero-content {
+    align-items: center;
+  }
+
+  .hero-content .hero-text {
+    width: auto;
+    margin-bottom: 48px;
+    padding-right: 0;
+    border-radius: 0;
+    text-align: center;
+    background-color: none;
+  }
+
+  .hero-content .hero-text .hero-heading {
+    margin-bottom: 20px;
+  }
+
+  .hero-content .hero-text .hero-subheading {
+    font-size: 18px;
+  }
+
+  .hero-content .hero-cta {
+    flex-direction: column;
+  }
+
+  .hero-content .hero-cta .btn {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
