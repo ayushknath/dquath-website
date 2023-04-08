@@ -148,3 +148,13 @@ function navBarCloseAnim() {
     ease: "circ.in",
   });
 }
+
+const header = document.querySelector("header");
+document.addEventListener("scroll", () => {
+  const scrollPos = Math.round(window.scrollY);
+  if (scrollPos > 30) {
+    header.classList.add("distinguish-header");
+  } else {
+    header.classList.remove("distinguish-header");
+  }
+});
